@@ -13,6 +13,7 @@ public class FunService {
 
     @Bean("firstImpl")
     public AwesomeInterface getInterface() {
+        System.out.println("SOME CHANGES");
         return new AwesomeInterfaceImpl();
     }
 
