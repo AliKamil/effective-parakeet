@@ -32,6 +32,8 @@ public class HelloController {
     public String moreFun() {
         return funService.funString();
     }
-
-
+    @GetMapping("/director")
+    public String getDirectors() {
+        return funService.funString() + "directors";
+    }
 }
