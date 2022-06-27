@@ -22,9 +22,16 @@ public class HelloController {
     public String index() {
         return "Greetings from Spring Boot!" + helloService.randomNumber();
     }
+
     @GetMapping("/fun")
     public String fun() {
         return funService.funString();
     }
+
+    @GetMapping("/fun2")
+    public String moreFun() {
+        return funService.funString();
+    }
+
 
 }
