@@ -15,6 +15,7 @@ public class FunService {
     public AwesomeInterface getInterface() {
         System.out.println("SOME CHANGES");
         System.out.println("TESTING IMPLEMENTED");
+        System.out.println("FooBar");
         System.out.println("Conflict line");
         return new AwesomeInterfaceImpl();
     }
